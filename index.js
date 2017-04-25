@@ -2,6 +2,9 @@ module.exports = {
   extends: [
     `eslint:recommended`
   ],
+  plugins: [
+    `react`
+  ],
   parser: `babel-eslint`,
   parserOptions: {
     ecmaVersion: 8,
