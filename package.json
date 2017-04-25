@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-lokua",
+  "version": "0.0.1",
+  "description": "eslint:recommended with no semis, only backticks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lokua/eslint-config-lokua.git"
+  },
+  "author": "Joshua Kleckner <lokua@lokua.net> (https://lokua.net)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  }
+}
