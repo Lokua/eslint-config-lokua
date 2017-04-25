@@ -1,4 +1,6 @@
 /* global Component  */
+import Stateless from './Stateless'
+
 export default class Foo extends Component {
   state = {
     foo: `bar`
@@ -8,6 +10,7 @@ export default class Foo extends Component {
     return (
       <h1 className="root">
         {hoistingIsAFeature()}
+        <Stateless />
       </h1>
     )
   }
