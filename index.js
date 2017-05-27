@@ -21,6 +21,7 @@ module.exports = {
   rules: {
     quotes: [2, `backtick`],
     semi: [2, `never`],
+    'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2
   }
 }
