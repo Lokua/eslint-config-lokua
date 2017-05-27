@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lokua",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "eslint:recommended with no semis, only backticks",
   "main": "index.js",
   "repository": {
