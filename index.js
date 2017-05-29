@@ -20,6 +20,7 @@ module.exports = {
     "mocha": true
   },
   rules: {
+    'no-unused-vars': [2, { ignoreRestSiblings: true }],
     quotes: [2, `backtick`],
     semi: [2, `never`],
     'react/jsx-uses-react': 2,
