@@ -17,9 +17,10 @@ module.exports = {
     browser: true,
     node: true,
     es6: true,
-    "mocha": true
+    jest: true
   },
   rules: {
+    'max-len': [2, 100],
     'no-unused-vars': [2, { ignoreRestSiblings: true }],
     quotes: [2, `backtick`],
     semi: [2, `never`],
