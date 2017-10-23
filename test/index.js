@@ -3,7 +3,7 @@ import Stateless from './Stateless'
 
 export default class Foo extends Component {
   state = {
-    foo: `bar`
+    foo: 'bar'
   }
 
   render() {
@@ -17,5 +17,5 @@ export default class Foo extends Component {
 }
 
 function hoistingIsAFeature() {
-  return `booyow!`
+  return 'booyow!'
 }
