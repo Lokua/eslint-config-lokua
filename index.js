@@ -16,7 +16,8 @@ module.exports = {
     jest: true
   },
   rules: {
-    quotes: [2, 'semi'],
-    semi: [2, 'never']
+    quotes: [2, 'single'],
+    semi: [2, 'never'],
+    'prettier/prettier': 1
   }
 }
