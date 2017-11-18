@@ -16,7 +16,8 @@ module.exports = {
     jest: true
   },
   rules: {
-    quotes: [2, 'single'],
+    'no-use-before-define': 0,
+    quotes: [2, 'single', { allowTemplateLiterals: true }],
     semi: [2, 'never'],
     'prettier/prettier': 1
   }
