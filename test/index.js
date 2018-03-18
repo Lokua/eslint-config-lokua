@@ -1,9 +1,14 @@
-/* global Component  */
+import React, { Component } from 'react'
 import Stateless from './Stateless'
 
 export default class Foo extends Component {
   state = {
     foo: 'bar'
+  }
+
+  @fakeDecorator
+  get random() {
+    return Math.random()
   }
 
   render() {
@@ -18,4 +23,8 @@ export default class Foo extends Component {
 
 function hoistingIsAFeature() {
   return 'booyow!'
+}
+
+function fakeDecorator() {
+  //
 }

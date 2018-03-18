@@ -17,7 +17,7 @@ module.exports = {
   },
   rules: {
     'no-use-before-define': 0,
-    quotes: [2, 'single', { allowTemplateLiterals: true }],
+    quotes: [2, 'single'],
     semi: [2, 'never'],
     'prettier/prettier': 1
   }
