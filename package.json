@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lokua",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "eslint + prettier the way I like it",
   "main": "index.js",
   "repository": {
