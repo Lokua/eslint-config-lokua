@@ -3,7 +3,7 @@ import Stateless from './Stateless'
 
 export default class Foo extends Component {
   state = {
-    foo: 'bar'
+    foo: 'bar',
   }
 
   @fakeDecorator
