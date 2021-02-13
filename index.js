@@ -8,7 +8,9 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    requireConfigFile: false,
+    babelOptions: {
+      config: `${__dirname}/babel.config.js`,
+    },
   },
   env: {
     browser: true,
