@@ -8,6 +8,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    requireConfigFile: false,
   },
   env: {
     browser: true,
