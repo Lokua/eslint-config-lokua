@@ -1,9 +1,9 @@
 module.exports = {
   extends: ['eslint:recommended', 'prettier'],
   plugins: ['prettier'],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 2021,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -12,13 +12,23 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es2021: true,
     jest: true,
   },
   rules: {
-    'no-use-before-define': 0,
-    quotes: [2, 'single'],
-    semi: [2, 'never'],
-    'prettier/prettier': 1,
+    'no-inner-declarations': ['off'],
+    'no-unused-vars': [
+      'error',
+      {
+        ignoreRestSiblings: true,
+      },
+    ],
+    quotes: [
+      'error',
+      'single',
+      {
+        avoidEscape: true,
+      },
+    ],
   },
 }

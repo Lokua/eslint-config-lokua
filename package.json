@@ -3,6 +3,9 @@
   "version": "9.0.0-beta.1",
   "description": "eslint + prettier the way I like it",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint test/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Lokua/eslint-config-lokua.git"
@@ -10,8 +13,13 @@
   "author": "Joshua Kleckner <lokua@lokua.net> (https://lokua.net)",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "7.18.0",
+    "@babel/core": "7.12.16",
+    "@babel/eslint-parser": "7.12.16",
+    "@babel/plugin-proposal-class-properties": "7.12.13",
+    "@babel/preset-env": "7.12.16",
+    "@babel/preset-react": "7.12.13",
+    "core-js": "3.8.3",
+    "eslint": "7.20.0",
     "eslint-config-prettier": "7.1.0",
     "eslint-plugin-prettier": "3.3.1",
     "prettier": "2.2.1"
