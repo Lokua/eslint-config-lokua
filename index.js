@@ -9,7 +9,7 @@ module.exports = {
       jsx: true,
     },
     babelOptions: {
-      config: `${__dirname}/babel.config.js`,
+      configFile: `${__dirname}/babel.config.js`,
     },
   },
   env: {
