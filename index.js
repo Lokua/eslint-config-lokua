@@ -30,7 +30,7 @@ module.exports = {
       'error',
       'single',
       {
-        avoidEscape: true,
+        avoidEscape: false,
       },
     ],
   },
