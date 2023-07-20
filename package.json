@@ -13,10 +13,10 @@
   "author": "Joshua Kleckner <lokua@lokua.net> (https://lokua.net)",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "7.12.16",
+    "@babel/core": "^7.22.9",
     "@babel/eslint-parser": "7.12.16",
     "@babel/plugin-proposal-class-properties": "7.12.13",
-    "@babel/preset-env": "7.12.16",
+    "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "7.12.13",
     "core-js": "3.8.3",
     "eslint": "7.20.0",
