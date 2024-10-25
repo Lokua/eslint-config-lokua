@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lokua/eslint-config-lokua.git"
+    "url": "git+https://github.com/Lokua/eslint-config-lokua.git"
   },
   "author": "Joshua Kleckner <lokua@lokua.net> (https://lokua.net)",
   "license": "MIT",
