@@ -31,6 +31,7 @@ export default [
         'error',
         {
           ignoreRestSiblings: true,
+          caughtErrors: 'none',
         },
       ],
       quotes: [
